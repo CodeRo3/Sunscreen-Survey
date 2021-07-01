@@ -1,0 +1,124 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+
+<body>
+  <h1 id="title">Sunscreen Awareness Survey☀️</h1>
+  <p id="description">The use of sunscreen is extremely vital in helping us protect our skin against harmful UV rays, slow down wrinkles and fine lines, and prevent skin cancer.</p>
+  <p>What do you know about sunscreen?</p><br>
+
+  <img src="https://media.istockphoto.com/vectors/diagram-of-chemical-sunscreen-and-physical-sunscreen-vector-id801551468?k=6&m=801551468&s=170667a&w=0&h=TO77jYzf7e6jkssCV1XBK-xZJy1sMhrfAH6qJlb022U=" alt="Picture of the main difference between physical and chemical sunscreen"> <img src="https://news.uthscsa.edu/wp-content/uploads/2019/05/skin-cancer-infographic-350x275.png" alt="Picture of skin cancer infographics" width="26%" height="26%">
+  
+  <br><br><br><br>
+  
+  <form id="survey-form">
+    <fieldset>
+      
+      <legend>Tell me about yourself first!</legend>
+      
+      <label id="name-label" for="name">
+        <p>What is your full name?</p>
+      </label>
+       
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+      
+      <br><br>
+    
+      <label id="email-label" for="email">
+        <p>What is your email?</p>
+      </label>
+      
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+      
+      <br><br>
+
+      <label id="number-label" for="number">
+        <p>How old are you?</p>
+      </label>
+      
+      <input id="number" type="number" placeholder="Enter Your Age" min="12" max="99" required>
+      
+      <br><br>
+      
+    </fieldset>
+    
+    <br>
+    
+    <div id="sunscreen-habits">
+      
+      <h2 id="sub-title">Now, let's learn more about your sunscreen habits!</h2>
+      
+      <label for="dropdown">How often do you wear sunscreen?</label>
+    
+      <select name="something" id="dropdown" required>
+        <option>EVERYDAY, RAIN OR SHINE.</option>
+        <option>Every other day</option>
+        <option>3 times a week or less</option>
+        <option>Once a week</option>
+        <option>3 times a month or less</option>
+        <option>Once a month.</option>
+        <option>Several times a year</option>
+        <option>Only before doing summer activities</option>
+        <option>Never</option>
+      </select><br><br>
+    
+      <p>If you do wear sunscreen, how often would you reapply sunscreen?</p>
+   
+      <input type="radio" name="sunscreen-reapply" value="two-hours">
+        <label for="two-hours">Every 2 hours</label><br>
+    
+      <input type="radio" name="sunscreen-reapply" value="several-times">
+      <label for="several-times">Several times, depending on my mood</label><br>
+    
+      <input type="radio" name="sunscreen-reapply" value="only-once"> 
+      <label for="only-once">Usually only once</label><br>
+    
+      <input type="radio" name="sunscreen-reapply" value="never"> 
+      <label for="never">Never</label>
+      
+      <br><br>
+      
+      <p>If you do not wear sunscreen, please check all the boxes below that apply to you:</p>
+      <input type="checkbox" name="no-sunscreen" value="uncomfortable">
+      <label for="uncomfortable">It's uncomfortable</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="too-sticky">
+      <label for="too-sticky">Too sticky</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="expensive">
+      <label for="expensive">Too expensive</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="pilling">
+      <label for="pilling">It pills on my skin</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="makeup">
+      <label for="uncomfortable">It doesn't sit well under my makeup</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="inaccessible">
+      <label for="uncomfortable">It's inaccessible</label><br>
+      
+      <input type="checkbox" name="no-sunscreen" value="too-much-work">
+      <label for="uncomfortable">It's too much work</label><br>
+      
+      <br><br>
+      
+      <label for="comments">Additional comments about your sunscreen use:</label><br>
+      <textarea id="comments" rows="5" cols="80">
+      </textarea>
+      
+    </div>
+    
+    <br><br>
+    
+    
+    
+    <input type="submit" id="submit" value="Submit!">
+  </form>
+</body>

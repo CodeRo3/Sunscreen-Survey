@@ -1,0 +1,46 @@
+body {
+  font-family: "Garamond";
+  background-color: coral;
+  color: white;
+  text-align: center;
+}
+
+#title {
+  font-family: "American Typewriter"
+}
+
+h1 {
+  color: yellow;
+}
+
+legend {
+  background-color: #000000;
+  padding: 10px;
+}
+
+div {
+  text-align: left
+}
+
+#sub-title {
+  color: yellow;
+  font-family: "American Typewriter"
+}
+
+selector {
+  (property-value pairs)
+  property1: value;
+  property2: value;
+}
+
+main selectors are element, class (based on class attribute), id
+
+.class-name {
+  property: value;
+}
+
+#id {
+  property: value;
+}
+
+you can also combine selectors!
